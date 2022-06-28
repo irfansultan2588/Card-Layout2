@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, rgb(29, 20, 20) , rgb(231, 19, 19));
+    color: #fff;
+}
+.bodr1{
+    border: 1px solid red;
+}
+#card-boder{
+    margin-left: 10px;
+    border: 1px solid red;
+}
+.img-div{
+    border: 1px solid black;
+}
+.img-div2{
+    border: 1px solid red;
+}
+#card-boder2{
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.main-div{
+    /* display: flex; */
+    /* justify-content: center; */
+   flex-wrap: wrap;
+   /* flex-basis: 20%; */
+}
+.img-23{
+    object-fit: contain;
+}
